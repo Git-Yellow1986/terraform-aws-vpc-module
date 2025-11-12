@@ -100,10 +100,10 @@ variable "database_route_table_tags" {
 # Peering Variable
 
 variable "is_peering_required" {
-  type = bool
+  type    = bool
   default = false
 }
 
-variable "vpc_peering_tags"{
+variable "vpc_peering_tags" {
   default = {}
 }
